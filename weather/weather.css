@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://www.expenseanywhere.com/wp-content/uploads/2016/09/website-backgrounds-E280AB1E280AC-E280ABE280AC.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: green;*/
+  padding: 20px 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /*align-items: center;
+	justify-content: center;*/
+  min-height: 100vh;
+  flex-direction: column;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 54px;
+  color: #131313;
+  background: transparent;
+  /*border-bottom: 5px solid yellow;*/
+  /*color: linear-gradient(to left,black,yellow);*/
+  animation-name: appear;
+  animation-duration: 5s;
+}
+@keyframes appear {
+  from {
+    color: #131313;
+  }
+  to {
+    color: white;
+  }
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 50px 15px 15px;
+  color: #ffffff;
+}
+.input-search {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px 15px;
+  background-color: ghostwhite;
+  outline: none;
+  border-radius: 20px 8px 20px 8px;
+  border: none;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 15px;
+  border: 2px solid black;
+  font-weight: 400;
+  /*transition: 0.2s ease-out;*/
+}
+.input-search:focus {
+  background-color: ghostwhite;
+}
+.box {
+  flex: 1 1 100%;
+  padding: 5px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /*justify-content: center;*/
+}
+.location-city {
+  font-size: 50px;
+  font-family: monospace;
+  margin-bottom: 15px;
+}
+.location-date {
+  font-size: 30px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+.temperature-temp {
+  font-family: serif;
+  font-size: 80px;
+  font-weight: bold;
+}
+span {
+  font-weight: 500;
+}
+.temperature-type {
+  font-family: "Dosis", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+.temperature-range {
+  font-family: cursive;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.heading {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 40px;
+  margin-bottom: -10px;
+  font-family: cursive;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+footer p {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+footer a {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 20px 10px;
+  }
+  .container {
+    min-height: auto;
+  }
+}

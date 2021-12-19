@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <!--LINKS-->
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="container-fluid">
+    <div class="container">
+      <div class="heading">
+        <h1>BMI <span>Calculator</span></h1>
+      </div>
+      <div class="height">
+        <h2>Height in CMs</h2>
+        <input
+          id="height"
+          type="number"
+          placeholder="Enter here.."
+          class="well btn-block text-center"
+        />
+      </div>
+      <div class="weight">
+        <h2>Weight in KGs</h2>
+        <input
+          id="weight"
+          type="number"
+          placeholder="Enter here.."
+          class="well btn-block text-center"
+        />
+      </div>
+      <div class="mx-auto button-div">
+        <button type="button" id="btn" class="btn btn-block">
+          Calculate your BMI
+        </button>
+      </div>
+      <h1 id="output"></h1>
+      <h2 id="output2"></h2>
+    </div>
+    <footer>
+      <a href="https://www.buymeacoffee.com/iruthaya" target="_blank"
+        ><img
+          src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png"
+          alt="Buy Me A Coffee"
+          style="height: 60px !important; width: 217px !important"
+      /></a>
+      <p>Made with ❤️ | <a href="https://iruthaya.webilo.xyz/">IRUTHAYA</a></p>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="./script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINKS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e7ebc2fc39.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Todo List - AbacaxiGuy</title>
+  </head>
+  <body>
+    <header>
+      <h1><span>Basic's</span> Todo List</h1>
+    </header>
+
+    <form>
+      <input type="text" class="todo-input" maxlength="40" />
+      <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+      </button>
+      <div class="select">
+        <select name="todos" class="filter-todo">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">Uncompleted</option>
+        </select>
+      </div>
+    </form>
+
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+    <footer>
+      <div class="bmc-image">
+        <a href="https://www.buymeacoffee.com/iruthaya" target="_blank"
+          ><img
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png"
+            alt="Buy Me A Coffee"
+            style="height: 60px !important; width: 217px !important"
+        /></a>
+      </div>
+      <div class="credit">
+        <p>
+          Made with ❤️ | <a href="https://iruthaya.webilo.xyz/">IRUTHAYA</a>
+        </p>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

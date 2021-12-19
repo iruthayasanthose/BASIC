@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding-top: 100px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.my {
+  margin-right: 12px;
+  width: 50px;
+  height: 50px;
+}
+.top {
+  font-size: 50px;
+  color: #f76a8c;
+}
+span {
+  border-bottom: 4px black solid;
+}
+.flame-form {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.def {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.defi {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.inputs {
+  margin-top: 20px;
+}
+input {
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: 2px solid #f76a8c;
+}
+#display_flame {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  font-size: 4rem;
+}
+.but_por {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  margin-top: 4%;
+  margin-right: 6%;
+  border: none;
+  background-color: #f76a8c;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #eb6383;
+}
+footer {
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+footer p {
+  letter-spacing: 2px;
+}
+footer p a {
+  color: #eb6383;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-top: 5px;
+  }
+  .container {
+    padding-top: 50px;
+  }
+  .top {
+    font-size: 30px;
+  }
+  .def {
+    font-size: 26px;
+  }
+  body {
+    background-size: 500px 800px;
+  }
+  .inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  input {
+    margin: 15px auto auto auto;
+  }
+  .defi {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  footer {
+    margin-top: 15px;
+  }
+  #display_flame {
+    font-size: 3rem;
+  }
+}
