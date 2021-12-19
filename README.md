@@ -4,7 +4,7 @@
 
 ### 100% Responsive.
 
-> Live [demo](https://iruthayasanthose.github.io/BASIC/).
+> Live [demo](https://basicsapp.netlify.app/).
 
 ## Table of Contents
 
