@@ -4,7 +4,7 @@
 
 ### 100% Responsive.
 
-> Live [demo](https://iruthayasanthose.github.io/dark-mode/).
+> Live [demo](https://iruthayasanthose.github.io/BASIC/).
 
 ## Table of Contents
 
